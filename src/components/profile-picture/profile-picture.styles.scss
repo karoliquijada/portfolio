@@ -1,0 +1,15 @@
+.profile-picture-container {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #ccc;
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 20px;
+
+    .profile-picture {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
