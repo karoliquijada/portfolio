@@ -1,0 +1,30 @@
+article {
+    padding: 28px 0;
+}
+
+.project-title {
+    color: var(--text-dark);
+    font-size: var(--md); 
+}
+
+.project-description {
+    color: var(--text-light);
+    text-align: justify;
+    font-size: var(--sm);
+    padding: 24px 0;
+}
+
+.buttos-container {
+    display: flex;
+    column-gap: 4px;
+
+}
+
+.img-container {
+    width: inherit;
+    margin-top: 16px;
+}
+
+.img-container img {
+    width: 100%;
+}

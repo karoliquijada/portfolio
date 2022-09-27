@@ -1,7 +1,13 @@
 .App {
     background-color: #fff;
-    width: 700px; /* Buscar unidades relativas */
+    min-width: 30px;
+    width: 700px;
     margin: auto;
-    height: 100vh;
+}
+
+@media (max-width: 640px) {
+    .App {
+        width: 100%;
+    }
 }
 

@@ -1,16 +1,26 @@
 :root {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  font-family: 'League Spartan', sans-serif;
+  --sm: 20px;
+  --md: 24px;
+  --lg: 32px;
+  --text-light: #536471;
+  --text-dark: #232830;
+  --bg-dark: rgb(15, 15, 22);
+  --primary: #3142DB;
+  --seconday: #FFBD59;
+
+  font-size: var(--md);
+  color-scheme: dark;
   background-color: #fff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  
 }
-
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
