@@ -23,10 +23,34 @@
       margin-right: 12px;
     }
 
-    &.resume {
-      justify-content: end;
-      margin-top: -50px;
-      
+    .media-container {
+      a {
+        text-decoration: none;
+        font-size: var(--sm);
+        color: var(--text-dark);
+        margin: 0 8px;
+  
+      }
     }
   }
+}
+
+@media (max-width:640px) {
+  .header-elements-container {
+  
+    .element-container {
+      font-size: var(--extra-sm);
+  
+      p span {
+        font-size: var(--extra-sm);
+        font-weight: 600;
+        margin-right: 12px;
+      }
+
+      .media-container {
+       display: none;
+      }
+    }
+  }
+
 }

@@ -5,5 +5,18 @@ section {
 .section-title {
     color: var(--text-dark);
     font-size: var(--lg);
+}
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: var(--sm);
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid var(--bg-dark);
+    border-radius: 2px;
 }

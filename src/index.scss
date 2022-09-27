@@ -1,5 +1,6 @@
 :root {
   font-family: 'League Spartan', sans-serif;
+  --extra-sm: 16px;
   --sm: 20px;
   --md: 24px;
   --lg: 32px;
@@ -10,6 +11,7 @@
   --seconday: #FFBD59;
 
   font-size: var(--md);
+  color: var(--text-dark);
   color-scheme: dark;
   background-color: #fff;
   font-synthesis: none;
@@ -24,3 +26,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 700px) {
+  section {
+    margin: 20px;
+  }
+  
+}
+

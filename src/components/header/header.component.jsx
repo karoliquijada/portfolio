@@ -25,10 +25,11 @@ const Header = () => {
             <span>📍Remote Work</span>
             <span>⚡ Frontend Developer </span>
           </p>
-          <p>
-          <FaGithub /> <FaTwitter /> <FaLinkedinIn />
-          </p>        
-      
+          <div className="media-container">
+            <a href="https://github.com/karoliquijada"  target="_blank"><FaGithub/></a>
+            <a href="https://twitter.com/iGirliCode" target="_blank"> <FaTwitter/></a>
+            <a href="https://www.linkedin.com/in/karoliquijada/"  target="_blank"> <FaLinkedinIn/></a>           
+          </div>
         </div>
       </div>
     </div>
