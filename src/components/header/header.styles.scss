@@ -39,6 +39,7 @@
   .header-elements-container {
   
     .element-container {
+      flex-direction: column;
       font-size: var(--extra-sm);
   
       p span {
@@ -48,7 +49,8 @@
       }
 
       .media-container {
-       display: none;
+        text-align: center;
+        padding-top: 24px;
       }
     }
   }

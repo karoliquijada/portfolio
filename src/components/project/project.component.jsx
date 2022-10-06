@@ -1,22 +1,20 @@
 import Button from "../button/button.component";
 import "./project.styles.scss";
-import imagen from "../../assets/img/rick-and-morty.png";
 
-const Project = ({ title = "title" }) => {
+const Project = ({ title, url, demo, description, img }) => {
   return (
     <article>
-      <h2 className="project-title">Rick and Morty Wiki</h2>
+      <h2 className="project-title">{title}</h2>
       <p className="project-description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum at omnis illo suscipit non et illum numquam libero consequuntur
-        nulla laboriosam eos molestias quod dolore in dolor, provident est alias.
+       {description}
       </p>
       <div className="buttos-container">
-        <Button children="Source code" buttonType="active" />
-        <Button children="Demo" buttonType="inactive" />
+        <Button url={url} children="Source code" buttonType="active" />
+        <Button url={demo} children="Demo" buttonType="inactive" />
       </div>
 
       <div className="img-container">
-        <img src={imagen} alt="img proyecto" />
+        <img src={img} alt={title} />
       </div>
     </article>
   );

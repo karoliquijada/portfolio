@@ -20,3 +20,7 @@ ul li {
     border: 1px solid var(--bg-dark);
     border-radius: 2px;
 }
+
+ul li:hover{
+    background-color: gray;
+}

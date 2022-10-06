@@ -10,9 +10,10 @@ const Skills = ({ title='title'}) => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Sass</li>
-                <li>Boostrap</li>
+                <li>Bootstrap</li>
                 <li>Material UI</li>
                 <li>MySQL</li>
+                <li>Graph QL</li>
             </ul>
             
         </section>
