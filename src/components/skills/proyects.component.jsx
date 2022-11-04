@@ -14,6 +14,7 @@ const Skills = ({ title='title'}) => {
                 <li>Material UI</li>
                 <li>MySQL</li>
                 <li>Graph QL</li>
+                <li>Angular</li>
             </ul>
             
         </section>
